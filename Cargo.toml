@@ -1,0 +1,22 @@
+[package]
+name = "lift-fail"
+version = "0.1.0"
+authors = ["Michael Gattozzi <mgattozzi@gmail.com>"]
+description = "A library to handle `failure` in an iterable collection."
+documentation = "https://docs.rs/lift-fail"
+homepage = "https://github.com/mgattozzi/lift-fail"
+repository = "https://github.com/mgattozzi/lift-fail"
+readme = "README.md"
+keywords = ["failure", "fail", "error", "lift", "lift-fail"]
+categories = [
+  "rust-patterns",
+  "value-formatting",
+]
+license = "MIT/Apache-2.0"
+
+[badges]
+travis-ci = { repository = "mgattozzi/lift-fail", branch = "master" }
+appveyor = { repository = "mgattozzi/lift-fail", branch = "master", service = "github" }
+
+[dependencies]
+failure = "0.1"
